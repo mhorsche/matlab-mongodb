@@ -11,7 +11,7 @@
                 name="PCWIN64"
                 version="3.12.0"
                 instructionset="win64.xml"
-                archive="mongo-java-driver.jar"
+                archive="mongo-java-driver-3.12.0.jar"
                 removecmd=""
                 licenseurl="https://www.mongodb.com/legal/legal-notices">
             </Platform>
@@ -19,7 +19,7 @@
                 name="GLNXA64"
                 version="3.12.0"
                 instructionset="glnxa64.xml"
-                archive="mongo-java-driver.jar"
+                archive="mongo-java-driver-3.12.0.jar"
                 removecmd=""
                 licenseurl="https://www.mongodb.com/legal/legal-notices">
             </Platform>
@@ -27,7 +27,7 @@
                 name="MACI64"
                 version="3.12.0"
                 instructionset="maci64.xml"
-                archive="mongo-java-driver.jar"
+                archive="mongo-java-driver-3.12.0.jar"
                 removecmd=""
                 licenseurl="https://www.mongodb.com/legal/legal-notices">
             </Platform>

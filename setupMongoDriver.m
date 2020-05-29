@@ -4,9 +4,10 @@ function setupMongoDriver()
 %preferences directory).
 %
 % Copyright 2017 The Mathworks, Inc.
+% Updated to v3.12.0 (2019/12/24 by horsche)
 %
 
-installPath = fullfile(matlab.internal.get3pInstallLocation('mongodb.instrset'),'MongoDriver','mongo-java-driver.jar');
+installPath = fullfile(matlab.internal.get3pInstallLocation('mongodb.instrset'),'MongoDriver','mongo-java-driver-3.12.0.jar');
 
 % Check if Mongo Java Driver is downloaded correctly by the Support
 % Software Installer
