@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2017 The MathWorks, Inc. -->
+<!-- Mongo Java driver for Database Toolbox Interface for MongoDB  -->
+
+<RTTPackageRepository>
+  <!--Vendor home page and product name-->
+    <ThirdPartyPackage
+            name="Mongo Java Driver"
+            url="https://oss.sonatype.org/content/repositories/releases/org/mongodb/mongo-java-driver/">
+            <Platform
+                name="PCWIN64"
+                version="3.12.0"
+                instructionset="win64.xml"
+                archive="mongo-java-driver.jar"
+                removecmd=""
+                licenseurl="https://www.mongodb.com/legal/legal-notices">
+            </Platform>
+            <Platform
+                name="GLNXA64"
+                version="3.12.0"
+                instructionset="glnxa64.xml"
+                archive="mongo-java-driver.jar"
+                removecmd=""
+                licenseurl="https://www.mongodb.com/legal/legal-notices">
+            </Platform>
+            <Platform
+                name="MACI64"
+                version="3.12.0"
+                instructionset="maci64.xml"
+                archive="mongo-java-driver.jar"
+                removecmd=""
+                licenseurl="https://www.mongodb.com/legal/legal-notices">
+            </Platform>
+    </ThirdPartyPackage>
+</RTTPackageRepository>

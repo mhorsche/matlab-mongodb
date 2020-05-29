@@ -1,0 +1,10 @@
+# see http://help.github.com/ignore-files/ for more about ignoring files.
+
+# archive folder and system files
+.DS_Store
+Thumbs.db
+
+# matlab
+*.asv
+
+# misc

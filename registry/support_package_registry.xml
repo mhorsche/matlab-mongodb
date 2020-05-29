@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!-- Copyright 2017 The MathWorks, Inc. -->
+
+<!-- We must update the version every release -->
+<!-- http://sharepoint/dev/pm/rm/supportsoftwareprocessesandreleases/supportsoftwareversioning/default.aspx -->
+
+<RTTPackageRepository>
+    <SupportPackage
+        name="MongoDB"
+        basecode="MONGODB"
+        fullname="Database Toolbox Interface for MongoDB"
+        displayname="Database Toolbox Interface for MongoDB"
+        version="17.2.0"
+        platform="PCWIN64,MACI64,GLNXA64"
+        baseproduct="Database Toolbox"
+        visible="1"
+        enable="1"
+        url="https://www.mathworks.com"
+        downloadurl=""
+        licenseurl=""
+        folder = "mongodb"
+        postinstallcmd="matlab:setupMongoDriver"
+		preuninstallcmd="matlab:msgbox(['Mongo Java Driver installation path is not removed from JAVACLASSPATH.TXT as a part of uninstallation. You can manually remove install path: ' fullfile(matlab.internal.get3pInstallLocation('MongoDB.instrset'),'MongoDriver','mongo-java-driver.jar') ' from JAVACLASSPATH.TXT located here: ' fullfile(prefdir,'javaclasspath.txt')], 'Uninstall Notification', 'modal')"
+        supportcategory="software"
+        infotext="Interact with MongoDB from MATLAB and Database Toolbox">
+        <Path name="$(INSTALLDIR)/mongodb"></Path>
+    </SupportPackage>
+</RTTPackageRepository>
